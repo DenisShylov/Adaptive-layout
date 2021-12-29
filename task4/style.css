@@ -27,10 +27,12 @@ body {
 }
 .navigation {
   width: 20%;
+  margin: 0;
 }
 .nav-list {
   list-style-type: none;
   min-width: 20%;
+  padding: 0;
 }
 .nav-list-item {
   display: flex;
