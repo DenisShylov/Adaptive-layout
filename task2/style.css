@@ -6,18 +6,23 @@
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
-  flex-grow: 1.03;
+  flex: 1;
 }
 .products-list {
   display: flex;
   background-color: #006400;
   min-height: 200px;
-  flex-grow: 1;
+  flex: 1;
 }
 .news {
   display: flex;
   background-color: #0ff;
   min-height: 200px;
+  flex: 1;
+}
+
+.product {
+  width: 100%;
 }
 
 span {
@@ -29,14 +34,13 @@ span {
   margin: auto;
 }
 @media screen and (min-width: 600px) {
-  .section {
+  .product {
     display: flex;
-    flex-grow: 2;
+    flex: 2;
   }
 }
 @media screen and (min-width: 900px) {
   .main {
     display: flex;
-    /* flex-grow: 2; */
   }
 }
