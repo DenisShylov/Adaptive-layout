@@ -6,7 +6,7 @@
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
-  flex-grow: 1.02;
+  flex-grow: 1.03;
 }
 .products-list {
   display: flex;
