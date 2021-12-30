@@ -111,9 +111,7 @@
     flex-direction: column;
     height: 100vh;
   }
-  .main {
-    display: flex;
-  }
+
   .header {
     display: flex;
     align-items: center;
@@ -130,17 +128,19 @@
     justify-content: center;
   }
   .navigation {
-    width: 20%;
+    max-width: 20%;
     padding: 0.5em;
+    float: left;
   }
   .news {
     width: 100%;
     padding: 0.5em;
   }
   .section {
-    width: 80%;
+    max-width: 80%;
     padding: 0.5em;
     font-size: 1.25em;
+    overflow-y: hidden;
   }
   .units-list {
     line-height: 1.75em;
