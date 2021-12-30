@@ -114,7 +114,6 @@
   }
   .main {
     display: flex;
-    height: 100vh;
   }
   .header {
     display: flex;
@@ -180,9 +179,6 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-  }
-  .one-line {
-    display: flex;
   }
 }
 /* Screen on desktop */
